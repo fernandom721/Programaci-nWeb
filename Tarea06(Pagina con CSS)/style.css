@@ -1,0 +1,16 @@
+main{
+    background-color: #4b379a;
+}
+ul{
+    padding: 5em;
+    border-color: black;
+}
+ul li{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+li{
+    height: 20em;
+    background-color: white;
+    justify-content: center;
+}
