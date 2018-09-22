@@ -1,17 +1,116 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 body{
     background-color: #4b379a;
     margin: 0;
 }
 ul{
-    padding: 5em;
+    padding: 6em;
     border-color: black;
 }
 ul li{
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
-li{
+.section{
     height: 20em;
     background-color: white;
     justify-content: center;
+}
+button{
+    text-align: center;
+    border-radius: 25px;
+}
+/*section 1*/
+#header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+#logo img{
+    width: 10em;
+    -webkit-filter: grayscale(100%) invert(75%);
+    
+}
+.main_menu ul{
+    padding-top: 5px;
+    padding-right: 5px; 
+    padding-left: 0;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.main_menu ul li{
+    display: flex;
+    justify-content: center;
+}
+.main_menu ul #menu_icon{
+    padding-left: 2em;
+}
+#s1{
+    background-image:-webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 50%;
+}
+#s1{
+background-image: url("img/02.jpg");
+background-size: cover;
+}
+.title{
+    display: grid;
+    justify-content: center;
+}
+/*section 2*/
+#s2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#s2_img img{
+    width: 20em;
+}
+#s2_nxt_img i{
+    text-align: center;
+}
+/*section 3*/
+#s3{
+    background-image: url(img/06.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+#s3 div{
+    text-align: right;
+    margin-right: 1em;
+}
+#s3 div p{
+    margin-left: 15em;
+    margin-right: 1em;
+}
+/*section 4*/
+#s4 ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0;
+    justify-content: center;
+}
+#s4 ul li{
+    padding: 1em;
+}
+#s4 ul li img{
+    height: 5em;
+}
+#s4 ul li:hover{
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 0.9;
+}
+/*section 5*/
+#s5{
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    color: white;
+}
+#s5 input{
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    border-color: white;
+    margin: 1em;
 }
